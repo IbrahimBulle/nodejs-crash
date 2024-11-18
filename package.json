@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "nodejs crash course 2024",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Ibrahim",
   "license": "MIT"
