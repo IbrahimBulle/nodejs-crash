@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "nodejs crash course 2024",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon --env-file=.env server2.js"
   },
   "author": "Ibrahim",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
